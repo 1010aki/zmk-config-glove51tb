@@ -19,12 +19,30 @@
             ;
 };
 
+&zip_temp_layer {
+    excluded-positions = <
+        6 // j
+        7 // l
+        8 // u
+        9 // y
+        10 // ;
+        20 // h
+        21 // n
+        22 // e
+        23 // i
+        24 // o
+        13 // LeftShift
+        25 // RightShift
+        44 // Ctrl
+    >;
+};
+
 / {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 4 700>;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
+        input-processors = <&zip_temp_layer 4 30000;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（30000ms）
 
         scroller {
             layers = <5>;                                      // スクロールレイヤー
