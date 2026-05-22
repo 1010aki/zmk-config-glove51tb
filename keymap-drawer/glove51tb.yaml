@@ -26,7 +26,7 @@ layers:
   - E
   - I
   - O
-  - '-'
+  - {t: '-', h: RIGHT SHIFT}
   - LEFT WIN
   - Z
   - X
