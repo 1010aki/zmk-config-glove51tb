@@ -55,7 +55,7 @@ layers:
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&'
   - '#'
   - '%'
   - \
@@ -66,7 +66,7 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&'
+  - '@'
   - '*'
   - +
   - '~'
