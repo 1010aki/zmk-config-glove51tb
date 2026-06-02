@@ -42,7 +42,7 @@ layers:
   - /
   - ''''
   - {t: NUM, h: toggle}
-  - {t: Alt+SPACE, h: F21}
+  - {t: 'Ctl+[', h: F21}
   - CONTEXT MENU
   - LEFT ALT
   - {t: F23, h: LCTRL}
@@ -50,7 +50,7 @@ layers:
   - SPACE
   - {t: ENTER, h: SYM}
   - {t: BACKSPACE, h: FUN}
-  - {t: Alt+SPACE, h: F21}
+  - {t: 'Ctl+[', h: F21}
   - F19
   NUM:
   - {t: ▽, type: trans}
