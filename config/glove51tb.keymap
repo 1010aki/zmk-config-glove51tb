@@ -109,10 +109,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &trans        &kp AMPERSAND    &kp HASH   &kp PERCENT  &kp BACKSLASH                  &kp N5       &kp N6         &kp N7  &kp N8  &kp N9  &trans
-&trans  &kp AT        &kp ASTERISK     &kp PLUS   &kp TILDE    &kp GRAVE      &trans  &trans  &kp N0       &kp N1         &kp N2  &kp N3  &kp N4  &trans
-&trans  &kp QUESTION  &kp EXCLAMATION  &kp CARET  &kp DOLLAR   &kp PIPE       &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans  &trans  &trans  &kp EQUAL
-&to 0   &trans        &trans           &trans     &trans       &trans         &trans  &kp N0  &trans                                      &trans  &trans
+&trans  &trans        &kp AMPERSAND    &kp HASH   &kp PERCENT  &kp BACKSLASH                  &trans        &kp N6         &kp N7        &kp N8        &kp N9  &trans
+&trans  &kp AT        &kp ASTERISK     &kp PLUS   &kp TILDE    &kp GRAVE      &trans  &trans  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp N5  &trans
+&trans  &kp QUESTION  &kp EXCLAMATION  &kp CARET  &kp DOLLAR   &kp PIPE       &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN  &trans        &trans        &trans  &kp EQUAL
+&to 0   &trans        &trans           &trans     &trans       &trans         &trans  &kp N0  &trans                                                   &trans  &trans
             >;
         };
 
