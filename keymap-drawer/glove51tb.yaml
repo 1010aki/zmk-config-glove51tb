@@ -41,7 +41,7 @@ layers:
   - .
   - /
   - ''''
-  - {t: NUM, h: toggle}
+  - {t: '6', h: toggle}
   - {t: 'Ctl+[', h: F21}
   - CONTEXT MENU
   - LEFT ALT
@@ -302,6 +302,58 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '6':
+  - '1'
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - '2'
+  - '3'
+  - '4'
+  - A
+  - R
+  - S
+  - T
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - M
+  - N
+  - E
+  - I
+  - O
+  - '-'
+  - '5'
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - '7'
+  - {t: DEFAULT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
