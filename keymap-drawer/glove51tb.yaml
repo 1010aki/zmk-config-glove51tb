@@ -13,7 +13,7 @@ layers:
   - Y
   - {t: ':', s: ;}
   - DEL
-  - {t: TAB, h: LEFT SHIFT}
+  - {t: '-', h: LEFT SHIFT}
   - A
   - R
   - S
@@ -26,7 +26,7 @@ layers:
   - E
   - I
   - O
-  - {t: '-', h: RIGHT SHIFT}
+  - {t: '''', h: RIGHT SHIFT}
   - LEFT WIN
   - Z
   - X
@@ -40,7 +40,7 @@ layers:
   - ','
   - .
   - /
-  - ''''
+  - TAB
   - {t: '6', h: toggle}
   - {t: 'Ctl+[', h: F21}
   - CONTEXT MENU
