@@ -41,7 +41,7 @@ layers:
   - .
   - /
   - TAB
-  - {t: '6', h: toggle}
+  - {t: NUM, h: toggle}
   - {t: 'Ctl+[', h: F21}
   - CONTEXT MENU
   - LEFT ALT
@@ -80,8 +80,8 @@ layers:
   - '5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '?'
   - '!'
+  - '?'
   - ^
   - $
   - '|'
