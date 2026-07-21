@@ -48,8 +48,8 @@ layers:
   - {t: F23, h: LCTRL}
   - {t: F24, h: NUM}
   - SPACE
-  - {t: ENTER, h: SYM}
-  - {t: BACKSPACE, h: FUN}
+  - {t: ENTER, h: FUN}
+  - {t: BACKSPACE, h: SYM}
   - {t: 'Ctl+[', h: F21}
   - F19
   NUM:
@@ -152,8 +152,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
@@ -172,8 +172,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F24
+  - F23
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -204,8 +204,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
