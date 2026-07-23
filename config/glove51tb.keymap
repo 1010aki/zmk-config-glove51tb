@@ -97,7 +97,7 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC               &kp Q                     &kp W               &kp F         &kp P          &kp B                                                   &kp J            &kp L  &kp U      &kp Y    &colon_semicolon          &kp DEL
+&kp ESC               &kp Q                     &kp W               &kp F         &kp P          &kp B                                                   &kp J            &kp L  &kp U      &kp Y    &kp SEMI                  &kp DEL
 &mt LEFT_SHIFT MINUS  &kp A                     &kp R               &kp S         &kp T          &kp G      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp M            &kp N  &kp E      &kp I    &kp O                     &mt RIGHT_SHIFT SQT
 &kp LEFT_WIN          &kp Z                     &kp X               &kp C         &kp D          &kp V      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp K            &kp H  &kp COMMA  &kp DOT  &kp FSLH                  &kp TAB
 &to 1                 &mt F21 LC(LEFT_BRACKET)  &kp K_CONTEXT_MENU  &kp LEFT_ALT  &mt LCTRL F23  &lt 1 F24  &kp SPACE             &lt 3 ENTER            &lt 2 BACKSPACE                             &mt F21 LC(LEFT_BRACKET)  &kp F19
@@ -129,10 +129,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&trans  &trans           &trans        &trans   &trans   &trans                       &trans       &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans   &kp LA(F4)
-&trans  &trans           &trans        &kp F24  &kp F23  &trans  &trans  &trans       &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &kp LC(W)
-&trans  &kp EXCLAMATION  &kp QUESTION  &trans   &trans   &trans  &trans  &kp LG(TAB)  &kp LA(TAB)  &kp F15         &kp F16         &kp F17          &kp F18  &kp PRINTSCREEN
-&trans  &trans           &trans        &trans   &trans   &trans  &trans  &trans       &trans                                                        &trans   &trans
+&trans  &trans           &trans        &trans   &trans   &trans                        &trans       &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &trans   &kp LA(F4)
+&trans  &kp EXCLAMATION  &kp QUESTION  &kp F24  &kp F23  &trans  &kp F19  &trans       &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &kp LC(W)
+&trans  &kp EXCLAMATION  &kp QUESTION  &trans   &trans   &trans  &kp F20  &kp LG(TAB)  &kp LA(TAB)  &kp F15         &kp F16         &kp F17          &kp F18  &kp PRINTSCREEN
+&trans  &trans           &trans        &trans   &trans   &trans  &trans   &trans       &trans                                                        &trans   &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
