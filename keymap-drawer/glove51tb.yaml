@@ -172,8 +172,8 @@ layers:
   - {t: ▽, type: trans}
   - '!'
   - '?'
-  - F24
   - F23
+  - F24
   - {t: ▽, type: trans}
   - F19
   - {t: ▽, type: trans}
@@ -186,8 +186,8 @@ layers:
   - {t: ▽, type: trans}
   - '!'
   - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F19
+  - F20
   - {t: ▽, type: trans}
   - F20
   - Gui+TAB
