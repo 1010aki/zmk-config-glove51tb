@@ -11,7 +11,7 @@ layers:
   - L
   - U
   - Y
-  - {t: ':', s: ;}
+  - ;
   - DEL
   - {t: '-', h: LEFT SHIFT}
   - A
@@ -170,12 +170,12 @@ layers:
   - {t: ▽, type: trans}
   - Alt+F4
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - '?'
   - F24
   - F23
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F19
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
@@ -189,7 +189,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F20
   - Gui+TAB
   - Alt+TAB
   - F15
