@@ -175,7 +175,7 @@ layers:
   - F23
   - F24
   - {t: ▽, type: trans}
-  - F19
+  - F13
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
@@ -186,10 +186,10 @@ layers:
   - {t: ▽, type: trans}
   - '!'
   - '?'
-  - F19
-  - F20
+  - F13
+  - F14
   - {t: ▽, type: trans}
-  - F20
+  - F14
   - Gui+TAB
   - Alt+TAB
   - F15
