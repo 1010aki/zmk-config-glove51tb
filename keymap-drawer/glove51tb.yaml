@@ -2,44 +2,44 @@ layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
   - ESC
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
+  - ''''
+  - D
+  - X
+  - M
+  - /
+  - '-'
   - U
-  - Y
+  - O
+  - W
   - ;
   - DEL
-  - {t: '-', h: LEFT SHIFT}
-  - A
-  - R
-  - S
+  - {t: ., h: LEFT SHIFT}
+  - C
   - T
+  - S
+  - R
   - G
   - (
   - )
-  - M
+  - L
   - N
-  - E
   - I
-  - O
-  - {t: '''', h: RIGHT SHIFT}
+  - E
+  - A
+  - {t: ',', h: RIGHT SHIFT}
   - LEFT WIN
+  - Y
+  - P
   - Z
-  - X
-  - C
-  - D
-  - V
+  - H
+  - B
   - '['
   - ']'
+  - F
+  - V
+  - J
   - K
-  - H
-  - ','
-  - .
-  - /
+  - Q
   - TAB
   - {t: NUM, h: toggle}
   - {t: 'Ctl+[', h: F21}
