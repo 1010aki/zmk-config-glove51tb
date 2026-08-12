@@ -28,9 +28,9 @@ layers:
   - A
   - {t: ',', h: RIGHT SHIFT}
   - LEFT WIN
-  - Y
-  - P
   - Z
+  - P
+  - Y
   - H
   - B
   - '['
