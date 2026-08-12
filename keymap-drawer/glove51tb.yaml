@@ -2,11 +2,11 @@ layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
   - ESC
-  - ''''
+  - V
   - D
   - X
   - M
-  - /
+  - ''''
   - '-'
   - U
   - O
@@ -36,10 +36,10 @@ layers:
   - '['
   - ']'
   - F
-  - V
+  - /
   - J
-  - K
   - Q
+  - K
   - TAB
   - {t: NUM, h: toggle}
   - {t: 'Ctl+[', h: F21}
