@@ -4,8 +4,8 @@ layers:
   - ESC
   - G
   - D
-  - X
   - M
+  - X
   - F
   - '-'
   - U
@@ -16,8 +16,8 @@ layers:
   - {t: ., h: LEFT SHIFT}
   - C
   - T
-  - S
   - R
+  - S
   - ''''
   - (
   - )
