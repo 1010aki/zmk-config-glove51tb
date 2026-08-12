@@ -97,8 +97,8 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC                &kp G                     &kp D               &kp X         &kp M          &kp F                                                   &kp MINUS        &kp U  &kp O  &kp W     &kp Q                     &kp DEL
-&mt LEFT_SHIFT PERIOD  &kp C                     &kp T               &kp S         &kp R          &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp L            &kp N  &kp I  &kp E     &kp A                     &mt RIGHT_SHIFT COMMA
+&kp ESC                &kp G                     &kp D               &kp M         &kp X          &kp F                                                   &kp MINUS        &kp U  &kp O  &kp W     &kp Q                     &kp DEL
+&mt LEFT_SHIFT PERIOD  &kp C                     &kp T               &kp R         &kp S          &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp L            &kp N  &kp I  &kp E     &kp A                     &mt RIGHT_SHIFT COMMA
 &kp LEFT_WIN           &kp Z                     &kp P               &kp Y         &kp H          &kp B      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp V            &kp K  &kp J  &kp SEMI  &kp SLASH                 &kp TAB
 &to 1                  &mt F21 LC(LEFT_BRACKET)  &kp K_CONTEXT_MENU  &kp LEFT_ALT  &mt LCTRL F23  &lt 1 F24  &kp SPACE             &lt 3 ENTER            &lt 2 BACKSPACE                          &mt F21 LC(LEFT_BRACKET)  &kp F19
             >;
