@@ -16,8 +16,8 @@ layers:
   - {t: ., h: LEFT SHIFT}
   - C
   - T
-  - R
   - S
+  - R
   - ''''
   - (
   - )
@@ -28,11 +28,11 @@ layers:
   - A
   - {t: ',', h: RIGHT SHIFT}
   - LEFT WIN
-  - Z
-  - P
-  - H
-  - Y
   - B
+  - P
+  - Y
+  - H
+  - Z
   - '['
   - ']'
   - V
