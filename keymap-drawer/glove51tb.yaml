@@ -3,9 +3,9 @@ layers:
   DEFAULT:
   - ESC
   - G
+  - X
   - D
   - M
-  - X
   - F
   - '-'
   - U
@@ -15,8 +15,8 @@ layers:
   - DEL
   - {t: ., h: LEFT SHIFT}
   - C
-  - T
   - S
+  - T
   - R
   - ''''
   - (
@@ -28,9 +28,9 @@ layers:
   - A
   - {t: ',', h: RIGHT SHIFT}
   - LEFT WIN
+  - Y
   - B
   - P
-  - Y
   - H
   - Z
   - '['
