@@ -97,9 +97,9 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC                &kp G                     &kp D               &kp M         &kp X          &kp F                                                   &kp MINUS        &kp U  &kp O  &kp W     &kp Q                     &kp DEL
-&mt LEFT_SHIFT PERIOD  &kp C                     &kp T               &kp S         &kp R          &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K            &kp N  &kp I  &kp E     &kp A                     &mt RIGHT_SHIFT COMMA
-&kp LEFT_WIN           &kp B                     &kp P               &kp Y         &kp H          &kp Z      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp V            &kp L  &kp J  &kp SEMI  &kp SLASH                 &kp TAB
+&kp ESC                &kp G                     &kp X               &kp D         &kp M          &kp F                                                   &kp MINUS        &kp U  &kp O  &kp W     &kp Q                     &kp DEL
+&mt LEFT_SHIFT PERIOD  &kp C                     &kp S               &kp T         &kp R          &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K            &kp N  &kp I  &kp E     &kp A                     &mt RIGHT_SHIFT COMMA
+&kp LEFT_WIN           &kp Y                     &kp B               &kp P         &kp H          &kp Z      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp V            &kp L  &kp J  &kp SEMI  &kp SLASH                 &kp TAB
 &to 1                  &mt F21 LC(LEFT_BRACKET)  &kp K_CONTEXT_MENU  &kp LEFT_ALT  &mt LCTRL F23  &lt 1 F24  &kp SPACE             &lt 3 ENTER            &lt 2 BACKSPACE                          &mt F21 LC(LEFT_BRACKET)  &kp F19
             >;
 
