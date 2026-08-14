@@ -9,8 +9,8 @@ layers:
   - F
   - '-'
   - U
-  - W
   - O
+  - W
   - Q
   - DEL
   - {t: ., h: LEFT SHIFT}
@@ -35,9 +35,9 @@ layers:
   - Z
   - '['
   - ']'
-  - V
-  - L
   - J
+  - L
+  - V
   - ;
   - /
   - TAB
