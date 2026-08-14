@@ -9,8 +9,8 @@ layers:
   - F
   - '-'
   - U
-  - O
   - W
+  - O
   - Q
   - DEL
   - {t: ., h: LEFT SHIFT}
