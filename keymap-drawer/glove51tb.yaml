@@ -2,23 +2,23 @@ layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
   - ESC
-  - G
+  - {t: ., h: LEFT SHIFT}
   - X
   - D
   - M
-  - F
+  - B
   - '-'
   - U
   - W
   - O
-  - Q
+  - {t: ',', h: RIGHT SHIFT}
   - DEL
-  - {t: ., h: LEFT SHIFT}
-  - C
+  - ''''
+  - R
   - S
   - T
-  - R
-  - ''''
+  - C
+  - G
   - (
   - )
   - K
@@ -26,13 +26,13 @@ layers:
   - I
   - E
   - A
-  - {t: ',', h: RIGHT SHIFT}
+  - Q
   - LEFT WIN
   - Y
-  - B
+  - Z
   - P
   - H
-  - Z
+  - F
   - '['
   - ']'
   - J
