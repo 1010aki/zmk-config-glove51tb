@@ -97,10 +97,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC                &kp G                     &kp X               &kp D         &kp M          &kp F                                                   &kp MINUS        &kp U  &kp W  &kp O     &kp Q                     &kp DEL
-&mt LEFT_SHIFT PERIOD  &kp C                     &kp S               &kp T         &kp R          &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K            &kp N  &kp I  &kp E     &kp A                     &mt RIGHT_SHIFT COMMA
-&kp LEFT_WIN           &kp Y                     &kp B               &kp P         &kp H          &kp Z      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp J            &kp L  &kp V  &kp SEMI  &kp SLASH                 &kp TAB
-&to 6                  &mt F21 LC(LEFT_BRACKET)  &kp K_CONTEXT_MENU  &kp LEFT_ALT  &mt LCTRL F23  &lt 1 F24  &kp SPACE             &lt 3 ENTER            &lt 2 BACKSPACE                          &mt F21 LC(LEFT_BRACKET)  &kp F19
+&kp ESC       &mt LEFT_SHIFT PERIOD     &kp X               &kp D         &kp M          &kp B                                                   &kp MINUS        &kp U  &kp W  &kp O     &mt RIGHT_SHIFT COMMA     &kp DEL
+&kp SQT       &kp R                     &kp S               &kp T         &kp C          &kp G      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K            &kp N  &kp I  &kp E     &kp A                     &kp Q
+&kp LEFT_WIN  &kp Y                     &kp Z               &kp P         &kp H          &kp F      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp J            &kp L  &kp V  &kp SEMI  &kp SLASH                 &kp TAB
+&to 6         &mt F21 LC(LEFT_BRACKET)  &kp K_CONTEXT_MENU  &kp LEFT_ALT  &mt LCTRL F23  &lt 1 F24  &kp SPACE             &lt 3 ENTER            &lt 2 BACKSPACE                          &mt F21 LC(LEFT_BRACKET)  &kp F19
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
