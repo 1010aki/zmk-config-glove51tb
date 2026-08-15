@@ -54,11 +54,11 @@ layers:
   - F19
   NUM:
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - '*'
   - $
+  - '&'
   - {t: ▽, type: trans}
-  - PAGE UP
   - {t: ▽, type: trans}
   - '6'
   - '7'
@@ -66,22 +66,22 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ^
+  - '@'
   - +
   - '~'
-  - '@'
-  - PAGE DOWN
+  - ^
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
   - '2'
   - '3'
   - '4'
   - '5'
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - \
-  - '&'
+  - {t: ▽, type: trans}
   - '%'
   - '#'
   - {t: ▽, type: trans}
