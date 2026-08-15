@@ -100,7 +100,7 @@
 &kp ESC                &kp G                     &kp X               &kp D         &kp M          &kp F                                                   &kp MINUS        &kp U  &kp W  &kp O     &kp Q                     &kp DEL
 &mt LEFT_SHIFT PERIOD  &kp C                     &kp S               &kp T         &kp R          &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K            &kp N  &kp I  &kp E     &kp A                     &mt RIGHT_SHIFT COMMA
 &kp LEFT_WIN           &kp Y                     &kp B               &kp P         &kp H          &kp Z      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp J            &kp L  &kp V  &kp SEMI  &kp SLASH                 &kp TAB
-&to 1                  &mt F21 LC(LEFT_BRACKET)  &kp K_CONTEXT_MENU  &kp LEFT_ALT  &mt LCTRL F23  &lt 1 F24  &kp SPACE             &lt 3 ENTER            &lt 2 BACKSPACE                          &mt F21 LC(LEFT_BRACKET)  &kp F19
+&to 6                  &mt F21 LC(LEFT_BRACKET)  &kp K_CONTEXT_MENU  &kp LEFT_ALT  &mt LCTRL F23  &lt 1 F24  &kp SPACE             &lt 3 ENTER            &lt 2 BACKSPACE                          &mt F21 LC(LEFT_BRACKET)  &kp F19
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -109,10 +109,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &trans           &kp AMPERSAND  &kp HASH   &kp PERCENT  &kp BACKSLASH                  &kp PG_UP      &kp N6        &kp N7        &kp N8        &kp N9  &trans
-&trans  &kp AT           &kp ASTERISK   &kp PLUS   &kp TILDE    &kp GRAVE      &trans  &trans  &kp PAGE_DOWN  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &trans
-&trans  &kp EXCLAMATION  &kp QUESTION   &kp CARET  &kp DOLLAR   &kp PIPE       &trans  &trans  &trans         &kp NUMBER_1  &trans        &trans        &trans  &kp EQUAL
-&to 0   &trans           &trans         &trans     &trans       &trans         &trans  &kp N0  &trans                                                   &trans  &trans
+&trans  &kp GRAVE      &kp ASTERISK   &kp DOLLAR   &trans       &kp PAGE_UP                    &trans  &kp N6        &kp N7        &kp N8        &kp N9  &trans
+&trans  &kp CARET      &kp PLUS       &kp TILDE    &kp AT_SIGN  &kp PAGE_DOWN  &trans  &trans  &trans  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &trans
+&trans  &kp BACKSLASH  &kp AMPERSAND  &kp PERCENT  &kp POUND    &trans         &trans  &trans  &trans  &kp NUMBER_1  &kp PIPE      &trans        &trans  &kp EQUAL
+&to 0   &trans         &trans         &trans       &trans       &trans         &trans  &kp N0  &trans                                            &trans  &trans
             >;
         };
 
@@ -160,10 +160,10 @@
 
         layer_6 {
             bindings = <
-&kp N1  &kp Q   &kp W   &kp F   &kp P   &kp B                   &kp J   &kp L  &kp U      &kp Y    &kp N2    &kp N3
-&kp N4  &kp A   &kp R   &kp S   &kp T   &kp G   &trans  &trans  &kp M   &kp N  &kp E      &kp I    &kp O     &kp MINUS
-&kp N5  &kp Z   &kp X   &kp C   &kp D   &kp V   &trans  &trans  &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp N7
-&to 0   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                             &trans    &trans
+&trans                &kp Q   &kp W   &kp F   &kp P   &kp B                   &kp J   &kp L  &kp U      &kp Y    &kp SEMI  &trans
+&mt LEFT_SHIFT MINUS  &kp A   &kp R   &kp S   &kp T   &kp G   &trans  &trans  &kp M   &kp N  &kp E      &kp I    &kp O     &mt RIGHT_SHIFT SQT
+&trans                &kp Z   &kp X   &kp C   &kp D   &kp V   &trans  &trans  &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &trans
+&to 0                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                             &trans    &trans
             >;
         };
     };
