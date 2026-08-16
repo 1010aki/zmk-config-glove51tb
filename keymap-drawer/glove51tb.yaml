@@ -39,7 +39,7 @@ layers:
   - L
   - V
   - ;
-  - {t: RIGHT SHIFT, h: /}
+  - {t: /, h: RIGHT SHIFT}
   - TAB
   - {t: '6', h: toggle}
   - {t: 'Ctl+[', h: F21}
